@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @Author  : 杨倩
+# @Time    : 2022/6/30 20:48
+# @File    : split_data_label.py
+# @Software: PyCharm
 
 import cv2
 import os
@@ -38,10 +43,10 @@ def txt_translate(path, txt_path):
 
 if __name__ == '__main__':
     # det图片存储地址
-    trainDir = r"D:/License-plate-recognition/image/train/"
-    validDir = r"D:/License-plate-recognition/image/val/"
+    trainDir = r"D:/License-plate-recognition/images/train/"
+    validDir = r"D:/License-plate-recognition/images/val/"
     # det txt存储地址
-    train_txt_path = r"D:/License-plate-recognition/label/train/"
-    val_txt_path = r"D:/License-plate-recognition/label/val/"
+    train_txt_path = r"D:/License-plate-recognition/labels/train/"
+    val_txt_path = r"D:/License-plate-recognition/labels/val/"
     txt_translate(trainDir, train_txt_path)
     txt_translate(validDir, val_txt_path)

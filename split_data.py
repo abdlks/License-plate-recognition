@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @Author  : 杨倩
+# @Time    : 2022/6/30 20:48
+# @File    : split_data.py
+# @Software: PyCharm
 import os
 import random
 from shutil import copy2
